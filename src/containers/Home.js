@@ -13,6 +13,7 @@ export default function Home() {
       <div className="lander">
         <Banner />
         <Header />
+        <div>aasd</div>
       </div>
     );
   }
