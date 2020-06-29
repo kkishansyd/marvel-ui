@@ -1,9 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import {
+  faStar,
+  faBell,
+  faBellSlash,
+  faUser,
+} from '@fortawesome/free-solid-svg-icons';
 import './index.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+
+library.add(faStar, faBell, faBellSlash, faUser);
 
 ReactDOM.render(
   <Router>
