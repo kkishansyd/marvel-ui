@@ -4,6 +4,7 @@ import './App.css';
 import Routes from './Routes';
 import Header from './components/Header';
 // eslint-disable-next-line no-unused-vars
+// eslint-disable-next-line no-unused-vars
 import hero from './images/hero.jpg';
 
 const Banner = styled.div`
